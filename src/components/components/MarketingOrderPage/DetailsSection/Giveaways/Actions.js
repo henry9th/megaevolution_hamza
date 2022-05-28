@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Select from 'react-select';
+import React from 'react';
 
 const Row = styled.div`
   display: grid;
@@ -154,8 +155,8 @@ const Actions = ({ actions, setActions, maxActions }) => {
     <div className="mt-2">
       {actions.map((action, index) => {
         return (
-          <>
-            {index !== 0 &&
+          <React.Fragment key={index}>            
+          {index !== 0 &&
               actions.length < maxActions &&
               index === actions.length - 1 && <Divider />}
             <Row>
@@ -205,7 +206,7 @@ const Actions = ({ actions, setActions, maxActions }) => {
                   </IconButton>
                 )}
             </Row>{' '}
-          </>
+          </React.Fragment>
         );
       })}
 

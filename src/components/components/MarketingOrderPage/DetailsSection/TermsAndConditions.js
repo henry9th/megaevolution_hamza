@@ -70,14 +70,14 @@ const TermsAndConditions = ({ termsAndConditions, setTermsAndConditions }) => {
         sequi voluptatibus, aperiam, facere non culpa eius dolore temporibus
         saepe at voluptatum enim.
       </Text>
-      <div class="form-check text-primary-dark flex-row align-items-center gap-2 pt-1 mt-4">
+      <div className="form-check text-primary-dark flex-row align-items-center gap-2 pt-1 mt-4">
         <input
-          class="form-check-input m-0"
+          className="form-check-input m-0"
           type="checkbox"
           value=""
           id="flexCheckDefault"
         />
-        <label class="form-check-label" for="flexCheckDefault" className="">
+        <label className="form-check-label" htmlFor="flexCheckDefault" className="">
           I consent to MegaEvolution’s <strong>Terms & Conditions.</strong>
         </label>
       </div>

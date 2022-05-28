@@ -99,31 +99,31 @@ const RatingInput = () => {
         className={`icon-btn ${rating >= 1 ? 'active' : ''}`}
         onClick={() => setRating(1)}
       >
-        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+        <i className="fa fa-star fa-2x" aria-hidden="true"></i>
       </button>
       <button
         className={`icon-btn ${rating >= 2 ? 'active' : ''}`}
         onClick={() => setRating(2)}
       >
-        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+        <i className="fa fa-star fa-2x" aria-hidden="true"></i>
       </button>
       <button
         className={`icon-btn ${rating >= 3 ? 'active' : ''}`}
         onClick={() => setRating(3)}
       >
-        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+        <i className="fa fa-star fa-2x" aria-hidden="true"></i>
       </button>
       <button
         className={`icon-btn ${rating >= 4 ? 'active' : ''}`}
         onClick={() => setRating(4)}
       >
-        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+        <i className="fa fa-star fa-2x" aria-hidden="true"></i>
       </button>
       <button
         className={`icon-btn ${rating >= 5 ? 'active' : ''}`}
         onClick={() => setRating(5)}
       >
-        <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+        <i className="fa fa-star fa-2x" aria-hidden="true"></i>
       </button>
     </div>
   );

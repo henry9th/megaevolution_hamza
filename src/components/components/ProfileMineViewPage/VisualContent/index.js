@@ -10,7 +10,7 @@ const VisualContent = () => {
       <Card className="mt-4 p-5 ">
         <div className="d-flex p-5 my-3 w-100 h-100 flex-column justify-content-center align-items-center">
           <i
-            class="fa fa-picture-o fa-4x text-primary-dark"
+            className="fa fa-picture-o fa-4x text-primary-dark"
             aria-hidden="true"
           ></i>
           <h4 className="mt-3">Upload Your Visual Contents</h4>

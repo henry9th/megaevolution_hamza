@@ -45,9 +45,9 @@ const ListItem = () => {
 
       <IconButton onClick={() => setShow(!show)}>
         {show ? (
-          <i class="fa fa-eye-slash fa-lg"></i>
+          <i className="fa fa-eye-slash fa-lg"></i>
         ) : (
-          <i class="fa fa-eye fa-lg" aria-hidden="true"></i>
+          <i className="fa fa-eye fa-lg" aria-hidden="true"></i>
         )}
       </IconButton>
     </Wrapper>

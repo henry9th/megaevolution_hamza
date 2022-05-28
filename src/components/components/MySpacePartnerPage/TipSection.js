@@ -188,7 +188,7 @@ const TipSection = () => {
                   setTip(0);
                 }}
               >
-                <i class="fa fa-pencil"></i>
+                <i className="fa fa-pencil"></i>
                 Custom Tip
               </button>
             )}

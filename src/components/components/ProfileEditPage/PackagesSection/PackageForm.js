@@ -290,13 +290,13 @@ const PackageForm = ({ heading, defaultEnabled }) => {
         <Title>{heading}</Title>
         {enabled && (
           <IconButton type="button" onClick={() => setEnabled(false)}>
-            <i class="fa fa-times-circle fa-lg" aria-hidden="true"></i>
+            <i className="fa fa-times-circle fa-lg" aria-hidden="true"></i>
           </IconButton>
         )}
       </Header>
       {!enabled ? (
         <AddColumnButton onClick={() => setEnabled(true)}>
-          <i class="fa fa-plus-circle" aria-hidden="true"></i>
+          <i className="fa fa-plus-circle" aria-hidden="true"></i>
         </AddColumnButton>
       ) : (
         <>

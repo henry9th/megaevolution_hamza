@@ -121,17 +121,16 @@ const Giveaways = () => {
           <h4 className="m-0">Giveaways</h4>
           <QuestionMarkIcon />
         </div>
-        <div class="form-check text-primary-dark flex-row align-items-center gap-2 pt-1">
+        <div className="form-check text-primary-dark flex-row align-items-center gap-2 pt-1">
           <input
-            class="form-check-input m-0"
+            className="form-check-input m-0"
             type="checkbox"
             value=""
             id="flexCheckDefault"
           />
           <label
-            class="form-check-label"
-            for="flexCheckDefault"
-            className="text-uppercase"
+            className="form-check-label text-uppercase"
+            htmlFor="flexCheckDefault"
           >
             No Giveaways
           </label>

@@ -96,9 +96,9 @@ const Links = ({ links, setLinks }) => {
       </LinkRow>
       <LinksContainer>
         {links.map((link, index) => (
-          <LinkRow>
-            <LinkInput placeholder="Website" />
-            <LinkInput show placeholder="https://www.example.com" />
+          <LinkRow key={index}>
+            <LinkInput placeholder="W          <LinkRow>
+ple.com" />
             <IconButton
               className="position-absolute end-0"
               onClick={() => {

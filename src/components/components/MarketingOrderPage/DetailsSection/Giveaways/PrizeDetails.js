@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import React from 'react';
 
 const InputContainer = styled.div`
   width: 100%;
@@ -57,8 +58,8 @@ const PrizeDetails = ({ prizes, setPrizes, maxPrizes }) => {
     <div className="mt-2">
       {prizes.map((prize, index) => {
         return (
-          <>
-            {index !== 0 &&
+        <React.Fragment key={index}>
+              {index !== 0 &&
               prizes.length < maxPrizes &&
               index === prizes.length - 1 && <Divider />}
             <InputContainer key={index}>
@@ -97,7 +98,7 @@ const PrizeDetails = ({ prizes, setPrizes, maxPrizes }) => {
                   </IconButton>
                 )}
             </InputContainer>
-          </>
+          </React.Fragment>
         );
       })}
 

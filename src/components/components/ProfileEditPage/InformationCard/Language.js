@@ -156,7 +156,7 @@ const Language = () => {
           <SelectedLanguageTag>
             {language.label}
             <IconButton onClick={() => removeLanguage(language.value)}>
-              <i class="fa fa-times-circle" aria-hidden="true"></i>
+              <i className="fa fa-times-circle" aria-hidden="true"></i>
             </IconButton>
           </SelectedLanguageTag>
         ))}

@@ -292,7 +292,7 @@ const UploadModal = ({ show, handleClose }) => {
               <Image src={URL.createObjectURL(thumbnail)} alt="thumbnail" />
             ) : (
               <>
-                <i class="fa fa-plus-circle fa-4x mt-5" aria-hidden="true"></i>
+                <i className="fa fa-plus-circle fa-4x mt-5" aria-hidden="true"></i>
                 <p className="text-primary-dark text-center fw-bold mt-1">
                   400 x 225
                   <br />
@@ -360,7 +360,7 @@ const UploadModal = ({ show, handleClose }) => {
                     setError('');
                   }}
                 >
-                  <i class="fa fa-times-circle" aria-hidden="true"></i>
+                  <i className="fa fa-times-circle" aria-hidden="true"></i>
                 </IconButton>
                 <div className="p-1">
                   <ImageContainer>
@@ -382,7 +382,7 @@ const UploadModal = ({ show, handleClose }) => {
             background="#FCF6FF"
             className="position-relative flex-shrink-0 text-primary-light d-flex justify-content-center align-items-center"
           >
-            <i class="fa fa-plus-circle fa-4x" aria-hidden="true"></i>
+            <i className="fa fa-plus-circle fa-4x" aria-hidden="true"></i>
             <InputFile
               accept={FILE_FORMATS.map((format) => format + '/*').join(',')}
               multiple

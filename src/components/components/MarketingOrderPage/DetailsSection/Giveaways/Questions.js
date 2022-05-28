@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import React from 'react';
 
 const Row = styled.div`
   display: flex;
@@ -42,7 +43,7 @@ const Questions = ({ questions, setQuestions, maxQuestions }) => {
     <div className="mt-2">
       {questions.map((question, index) => {
         return (
-          <>
+          <React.Fragment key={index}>
             {index !== 0 &&
               questions.length < maxQuestions &&
               index === questions.length - 1 && <Divider />}
@@ -81,7 +82,7 @@ const Questions = ({ questions, setQuestions, maxQuestions }) => {
                   </IconButton>
                 )}
             </Row>
-          </>
+          </React.Fragment>
         );
       })}
 

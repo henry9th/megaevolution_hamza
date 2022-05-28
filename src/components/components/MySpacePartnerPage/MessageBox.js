@@ -187,10 +187,10 @@ const MessageBox = () => {
             <input type="text" className="" placeholder="Type your message" />
             <div className="input-icons">
               <button>
-                <i class="fa fa-smile-o fa-2x" aria-hidden="true"></i>
+                <i className="fa fa-smile-o fa-2x" aria-hidden="true"></i>
               </button>
               <button>
-                <i class="fa fa-paperclip fa-2x" aria-hidden="true"></i>
+                <i className="fa fa-paperclip fa-2x" aria-hidden="true"></i>
               </button>
             </div>
           </div>

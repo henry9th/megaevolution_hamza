@@ -117,10 +117,10 @@ const LinksCard = () => {
               </div>
               <div className="d-flex mt-3 mt-sm-0 justify-content-sm-end justify-content-center">
                 <IconButton className="text-primary">
-                  <i class="fa fa-check-circle fa-lg" aria-hidden="true"></i>
+                  <i className="fa fa-check-circle fa-lg" aria-hidden="true"></i>
                 </IconButton>
                 <IconButton className="text-muted">
-                  <i class="fa fa-times-circle fa-lg" aria-hidden="true"></i>
+                  <i className="fa fa-times-circle fa-lg" aria-hidden="true"></i>
                 </IconButton>
               </div>
             </LinkItem>

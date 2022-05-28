@@ -88,7 +88,7 @@ const WebsiteButtons = () => {
   return (
     <InputButtonsWrapper>
       <IconButton className="text-muted">
-        <i class="fa fa-times-circle fa-lg" aria-hidden="true"></i>
+        <i className="fa fa-times-circle fa-lg" aria-hidden="true"></i>
       </IconButton>
     </InputButtonsWrapper>
   );
@@ -102,7 +102,7 @@ const TwitterButtons = () => {
         Sign in with Twitter
       </InputButton>
       <IconButton className="text-muted">
-        <i class="fa fa-times-circle fa-lg" aria-hidden="true"></i>
+        <i className="fa fa-times-circle fa-lg" aria-hidden="true"></i>
       </IconButton>
     </InputButtonsWrapper>
   );
@@ -136,7 +136,7 @@ const BlogButtons = () => {
     return (
       <InputButtonsWrapper>
         <IconButton className="text-primary">
-          <i class="fa fa-check-circle fa-lg" aria-hidden="true"></i>
+          <i className="fa fa-check-circle fa-lg" aria-hidden="true"></i>
         </IconButton>
         <IconButton
           className="text-muted"
@@ -144,7 +144,7 @@ const BlogButtons = () => {
             setStatus('non-verified');
           }}
         >
-          <i class="fa fa-times-circle fa-lg" aria-hidden="true"></i>
+          <i className="fa fa-times-circle fa-lg" aria-hidden="true"></i>
         </IconButton>
       </InputButtonsWrapper>
     );

@@ -93,7 +93,7 @@ const PersonalCard = () => {
             }
           />
         ) : (
-          <i class="fa fa-plus-circle fa-2x" aria-hidden="true"></i>
+          <i className="fa fa-plus-circle fa-2x" aria-hidden="true"></i>
         )}
         <ProfileInput
           onChange={(e) => setProfilePic(e.target.files[0])}
@@ -104,7 +104,7 @@ const PersonalCard = () => {
       <InputWrapper>
         <Input value={name} onChange={(e) => setName(e.target.value)} />
         <PencilIconWrapper>
-          <i class="fa fa-pencil fa-lg" aria-hidden="true"></i>
+          <i className="fa fa-pencil fa-lg" aria-hidden="true"></i>
         </PencilIconWrapper>
       </InputWrapper>
     </MaxWidthCard>

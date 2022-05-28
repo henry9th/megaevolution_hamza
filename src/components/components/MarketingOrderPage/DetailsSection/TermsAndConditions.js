@@ -77,7 +77,7 @@ const TermsAndConditions = ({ termsAndConditions, setTermsAndConditions }) => {
           value=""
           id="flexCheckDefault"
         />
-        <label className="form-check-label" htmlFor="flexCheckDefault" className="">
+        <label className="form-check-label" htmlFor="flexCheckDefault">
           I consent to MegaEvolution’s <strong>Terms & Conditions.</strong>
         </label>
       </div>

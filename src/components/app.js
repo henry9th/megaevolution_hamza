@@ -77,7 +77,7 @@ const app = () => (
           <ProfileEditPage path="/profile/edit" />
           <ProfileMineViewPage path="/profile/mine" />
           <MarketingHomePage path="/marketing" />
-          <MarketingOrderPage path="/marketing/order" />
+          <MarketingOrderPage path="/order" />
           {/* <Wallet path="/wallet" />
         <Rangking path="/rangking" />
         <Price path="/price" />

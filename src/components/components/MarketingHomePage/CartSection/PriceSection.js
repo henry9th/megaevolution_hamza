@@ -83,7 +83,7 @@ const PriceSection = () => {
         </Prices>
       </div>
 
-      <GoldButton minWidth="12rem" onClick={() => navigate('/marketing/order')}>
+      <GoldButton minWidth="12rem" onClick={() => navigate('/order')}>
         Continue
       </GoldButton>
     </div>
